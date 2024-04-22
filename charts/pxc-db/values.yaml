@@ -557,7 +557,7 @@ pmm:
     limits: {}
 
 backup:
-  enabled: true
+  enabled: false
   # allowParallel: true
   image:
     repository: docker.io/percona/percona-xtradb-cluster-operator
