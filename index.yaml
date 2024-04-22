@@ -3,10 +3,10 @@ entries:
   pxc-db:
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-04-21T19:52:27.188405-04:00"
+    created: "2024-04-21T20:12:18.498705-04:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 0093a1d93d88a609d909cb7496b7273aef3db03c6c7d083259efd2f2bdfe2445
+    digest: 91d04d70107c6de669e43245d5681d8e060d01528deb242857d1b6fcc6bf5e05
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://artifacthub.io/image/0b8875cd-6661-4269-9cf6-0fd92d59017b@1x
     maintainers:
@@ -20,4 +20,24 @@ entries:
     urls:
     - https://github.com/rkm4bc/mysql-percona-automation.git/pxc-db-1.14.1.tgz
     version: 1.14.1
-generated: "2024-04-21T19:52:27.18705-04:00"
+  pxc-operator:
+  - apiVersion: v2
+    appVersion: 1.14.0
+    created: "2024-04-21T20:12:18.499718-04:00"
+    description: A Helm chart for deploying the Percona Operator for MySQL (based
+      on Percona XtraDB Cluster)
+    digest: 5095085980a638b75c042fa1f50b5a196808de64386e35e50738333f979b497a
+    home: https://docs.percona.com/percona-operator-for-mysql/pxc/
+    icon: https://artifacthub.io/image/0b8875cd-6661-4269-9cf6-0fd92d59017b@1x
+    maintainers:
+    - email: tomislav.plavcic@percona.com
+      name: tplavcic
+    - email: natalia.marukovich@percona.com
+      name: nmarukovich
+    - email: sergey.pronin@percona.com
+      name: spron-in
+    name: pxc-operator
+    urls:
+    - https://github.com/rkm4bc/mysql-percona-automation.git/pxc-operator-1.14.0.tgz
+    version: 1.14.0
+generated: "2024-04-21T20:12:18.497199-04:00"
